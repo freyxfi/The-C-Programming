@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-  float radius;
-  printf("What is the radius of circle:-");
-  scanf("%f",&radius);
-  double area = 3.14 * (radius * radius);
-  printf("The Area of Circle is %f\n",area);
+  char name[20];
+  printf("whach ya name homie ?:- ");
+  scanf("%s", name);
+  printf("Hello %s\n", name);
+  printf("%s you look lonely i can fix that :)",name);
   return 0;
 }
