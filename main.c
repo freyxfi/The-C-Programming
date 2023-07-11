@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(){
-	int length, breath, area;
+	int length;
+	int breath;
+	int area;
 	printf("What is the leng- ");
 	scanf("%d",&length);
 	printf("What is the breath- ");
