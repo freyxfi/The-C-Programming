@@ -8,6 +8,6 @@ int main(){
 	printf("What is the breath- ");
 	scanf("%d",&breath);
 	area = (length) * breath;
-	printf("Area of ractangle is %d",area);
+	printf("Area of ractangle is %d\n",area);
   return 0;
 }
